@@ -1,0 +1,27 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: StelkerFont, sans-serif;
+  color: white;
+  letter-spacing: 0.25rem;
+  background: black;
+}
+
+
+@font-face {
+  font-family: 'StelkerFont';
+  src: url('@/assets/fonts/AmazS.T.A.L.K.E.R.v.3.0.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+p {
+  font-family: 'StelkerFont', sans-serif;
+}
